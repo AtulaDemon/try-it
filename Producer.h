@@ -4,13 +4,13 @@
 #include <vector>
 
 class Producer {
-	private:
+    private:
     std::vector<int> numberList;
 
     void generateRandomNumber();
 
-	public:
-	Producer();
+    public:
+    Producer();
 
     std::vector<int>* getListAddress();
 };
